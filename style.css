@@ -131,3 +131,42 @@ footer {
   padding: 24px 0;
   color: var(--off-white);
 }
+
+@media screen and (max-width: 932px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav > a, nav > a.logo {
+    margin: 10px 0; 
+  }
+}
+
+@media screen and (max-width: 932px) {
+  main article {
+    padding: 30px; 
+  }
+}
+
+@media screen and (max-width: 932px) {
+  section.hero > .call-to-action {
+    font-size: 1.5rem; 
+  }
+}
+
+@media screen and (max-width: 932px) {
+  main article img {
+    float: none; 
+    margin: 0 auto; 
+    display: block; 
+  }
+}
+
+@media screen and (max-width: 932px) {
+  main > section,
+  main > article {
+    margin-bottom: 10px;
+  }
+}
+
